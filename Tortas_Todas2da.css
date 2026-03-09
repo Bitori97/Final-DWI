@@ -1,0 +1,82 @@
+body {
+    padding-top: 120px;
+    font-family: 'Istok Web', sans-serif;
+}
+
+.bg-pink{
+    background-color: #ffffff;
+}
+
+.navbar-nav .nav-link{
+    font-family: 'Istok Web', sans-serif;
+    font-size: 18px;
+    color: #000;
+    padding: 30px;
+}
+
+.buscador .form-control {
+    background-color: #F5B7B1;
+    border-radius: 5px;
+}
+
+.input-group-text {
+    background-color: #F5B7B1;
+    border-radius: 5px;
+}
+
+.form-control:focus{
+    box-shadow: none;
+}
+
+.footer {
+    background-color: #FBD8D5;
+}
+
+.footer-contacto {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+}
+
+.logo-box img {
+    width: 187px;
+    height: 66px;
+    object-fit: contain;
+}
+
+.btn-rosa {
+    background-color: #F1948A;
+    border: none;
+    color: #000;
+    border-radius: 20px;
+    padding: 6px 18px;
+    transition: 0.3s;
+    width: 110px;
+    font-family: 'Italian';
+}
+
+.btn-rosa:hover {
+    background-color: #E3554A;
+    color: #000;
+}
+
+.card {
+    border: 1px solid #000;
+    height: 500px;
+    border-radius: 0;
+}
+
+.card-text {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+.container h2{
+    font-weight: bold;
+}

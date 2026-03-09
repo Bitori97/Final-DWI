@@ -1,0 +1,202 @@
+body {
+    padding-top: 80px;
+    font-family: 'Istok Web', sans-serif;
+}
+
+
+.bg-pink{
+    background-color: #ffffff;
+}
+
+.bg-rosa{
+    background-color: #EEBCB7;
+}
+
+.navbar-nav .nav-link{
+    font-family: 'Istok Web', sans-serif;
+    font-size: 18px;
+    color: #000;
+    padding: 30px;
+}
+
+.btn-rosa{
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #F1948A;
+    border-radius: 20px;
+    padding: 10px 28px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.btn-rosa:hover{
+    background-color: #E3554A;
+    color: rgb(0, 0, 0);
+}
+
+.producto-img{
+    width: 288px;
+    height: 288px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 6px solid #F1948A;
+}
+
+.footer {
+    background-color: #FBD8D5;
+}
+
+.footer-contacto {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+}
+
+.carousel, .carousel-inner, .carousel-item {
+    height: 820px;
+    position: relative;
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-overlay {
+    position: absolute;
+    pointer-events: none;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.555);
+    z-index: 1;
+}
+
+.carousel-text {
+    position: absolute;
+    top: 50%;
+    left: 400px;
+    transform: translateY(-50%);
+    z-index: 3;
+    color: white;
+    max-width: 800px;
+    font-family: 'Istok Web', sans-serif;
+}
+
+.carousel-btn {
+    position: absolute;
+    font-family: 'Istok Web', sans-serif;
+}
+
+.carousel-text h2 {
+    font-size: 40px;
+    font-family: 'Italian';
+}
+
+.carousel-text p {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.carousel-indicators {
+    bottom: 60px;
+    z-index: 10;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #FADBD8;
+    border: 2px;
+    margin: 0 6px;
+    opacity: 1;
+}
+
+.carousel-indicators .active {
+    background-color: #F1948A;
+    border-color: #F1948A;
+}
+
+.sobre-eliana h3{
+    font-weight: bold;
+    font-family: 'Istok Web', sans-serif;
+}
+
+.sobre-eliana p{
+    font-family: 'Istok Web', sans-serif;
+}
+
+.img-marco {
+    display: inline-block;
+    border: 10px solid #FADBD8;
+}
+
+.img-marco img{
+    max-width: 319px;
+    height: 364px;
+}
+
+.sobre-eliana p{
+    line-height: 2;
+}
+
+.footer i{
+    font-size: 20px;
+    color: #000;
+    position: relative;
+    top: 1px;
+}
+
+.logo-box img {
+    width: 187px;
+    height: 66px;
+    object-fit: contain;
+}
+
+.footer-contacto {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+}
+
+.container h3,h5{
+    font-weight: bold;
+}
+
+@media (max-width: 700px){
+    .carousel-text{
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        max-width: 90%;
+    }
+
+    .carousel-btn{
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 130px;
+        width: 140px;
+    }
+
+    .btn-rosa:hover{
+    background-color: #E3554A;
+    color: rgb(0, 0, 0);
+    }
+
+    .carousel-text h2{
+        font-size: 22px;
+    }
+
+    .carousel-text p{
+        font-size: 16px;
+    }
+
+    .producto-img{
+        width: 240px;
+        height: 240px;
+    }
+
+    .container h5, p{
+        padding: 5px;
+        font-family: 'Istok Web', sans-serif;
+    }
+}
