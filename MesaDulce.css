@@ -33,11 +33,9 @@ body {
     display: inline-block;
     margin-top: 20px;
     background-color: #F1948A;
-    color: white;
+    color: rgb(0, 0, 0);
     border-radius: 20px;
     padding: 10px 28px;
-    border: 2px solid #fff;
-    text-decoration: none;
     font-weight: 500;
     letter-spacing: 1px;
     transition: all 0.3s ease;
@@ -45,8 +43,41 @@ body {
 
 .btn-rosa:hover{
     background-color: #E3554A;
-    color: white;
+    color: rgb(0, 0, 0);
 }
+
+.nav-link.active{
+    border-bottom: 2px solid #F1948A;
+}
+
+h2{
+    font-weight: bold;
+}
+
+.card {
+    border: 1px solid #000;
+    height: 100%;
+    border-radius: 0;
+}
+
+.card-img-top {
+    height: 300px;
+    width: 100%;
+    padding: 10px;
+    object-fit: cover;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.section-tortas {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
 
 .footer {
     background-color: #FBD8D5;
@@ -103,4 +134,23 @@ body {
 
 .btn-mesadulce:hover{
     background-color: #E3554A;
+}
+
+@media (max-width: 700px){
+
+    .btn-rosa{
+        background-color: #F1948A;
+        font-size: 14px;
+        padding: 6px 16px;
+    }
+
+    .btn-rosa:hover{
+    background-color: #E3554A;
+    color: rgb(0, 0, 0);
+    }
+
+    .carousel-item img{
+        height: 300px;
+    }
+
 }
