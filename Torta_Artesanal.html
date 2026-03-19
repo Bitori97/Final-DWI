@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
     <link href="Torta_Artesanal.css" rel="stylesheet">
+    <link rel="icon" href="img/MiniLogo.png" type="image/png">
 </head>
 <body>
     <!--Nav-->
@@ -26,7 +27,7 @@
                         <a class="nav-link" href="Inicio.html">INICIO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Tortas.html">TORTAS</a>
+                        <a class="nav-link active" href="Tortas.html">TORTAS</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="MesaDulce.html">MESA DULCE</a>
@@ -39,7 +40,7 @@
     </nav>
 
     <main class="container py-5">
-        <h2 class="text-center mb-5">Torta Artesanal</h2>
+        
 
         <div class="row align-items-start">
             <div class="col-md-6 text-center">
@@ -47,58 +48,67 @@
                  <img src="img/Torta1.jpg" class="img-fluid img-torta">
                 </div>
             </div>
-            <!--Botón de tamaño-->
-            <div class="col-md-6 d-flex flex-column justify-content-center text-center">
-                <h5 class="mb-3">Tamaño</h5>
-                <details class="selector-tamaño">
+            
+            <div class="col-md-6 d-flex flex-column justify-content-start">
+
+            <h2 class="text-md-start text-center mb-3 mt-4">Torta Artesanal</h2>
+            <div class="px-3 mt-3">
+                <div class="col-12 px-4 py-2">
+                    <p>
+                        Nuestra torta artesanal está elaborada con un bizcochuelo suave y esponjoso, preparado con ingredientes de calidad para lograr una textura 
+                        delicada.</p>
+                </div>
+                <div class="col-12 px-4 py-2">        
+                    <p>    
+                        Cada capa puede combinarse con distintos rellenos cremosos que aportan sabor y equilibrio. 
+                        La terminación se realiza de forma prolija y decorativa, con </p>
+                </div>
+                <div class="col-12 px-4 py-2">
+                        <p>    
+                        una cobertura suave y detalles que hacen de cada torta una opción ideal para celebrar cumpleaños, reuniones o cualquier ocasión especial.
+                    </p>
+                </div>
+            </div>
+
+                <!--Tamaño-->
+                <h5 class="text-center mb-2">Tamaño</h5>
+                <details class="selector-tamaño mb-4">
                     <summary>Elige un tamaño <i class="bi bi-arrow-down-circle"></i></summary>
                     <div class="opcion">Medio</div>
                     <div class="opcion">Estandar</div>
                     <div class="opcion">XL</div>
                 </details>
-            </div>
-
-            <!--Descripción-->
-            <div class="row mt-5">
-                <div class="col-12 px-4">
-                    <p>
-                        Nuestra torta artesanal está elaborada con un bizcochuelo suave y esponjoso, preparado con ingredientes de calidad para lograr una textura 
-                        delicada.</p><br>
-                    <p>    
-                        Cada capa puede combinarse con distintos rellenos cremosos que aportan sabor y equilibrio. 
-                        La terminación se realiza de forma prolija y decorativa, con </p><br>
-                    <p>    
-                        una cobertura suave y detalles que hacen de cada torta una opción ideal para celebrar cumpleaños, reuniones o cualquier ocasión especial.
-                    </p>
-                </div>
-            </div>
+            
+        </div>
     </main>
 
         <!--Footer-->
-     <footer class="footer mt-auto">
-        <div class="container py-4">
-            <div class="row align-items-start">
-                <div class="col-md-4 mb-3 mb-md-0">
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="row text-center text-md-start align-items-center">
+                <div class="col-md-4 mb-4 mb-md-0 text-center">
                     <div class="logo-box">
                         <img src="img/MiniLogo.png" alt="Logo">
                     </div>
                 </div>
-                <div class="col-md-3 ps-0">
-                    <p class="mb-2 mt-3">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <p>
                         <i class="bi bi-geo-alt-fill me-2"></i>
                         Calle Rio Negro<br>
                         6317 Oeste<br>
                         Barrio Laprida
                     </p>
-                    <p class="mb-0 mt-3">
+                    <p>
                         <i class="bi bi-clock-fill me-2"></i>
                         Horarios de atención<br>
                         De Lunes a sábado de 8h a 22h<br>
                         Los días domingo de 9h a 14h
                     </p>
                 </div> 
-                <div class="col-3 text-md-end">
-                    <a class="footer-contacto link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="contacto.html">CONTACTO</a>
+                <div class="col-md-4 text-center">
+                    <p><i class="bi bi-telephone me-2"></i> 2644512261</p>
+                    <p><i class="bi bi-envelope me-2"></i> elianartedulce@gmail.com</p>
+                    <p><i class="bi bi-instagram me-2"></i> eliana_artedulce</p>
                 </div>
             </div>
         </div>
