@@ -14,6 +14,10 @@ body {
     padding: 30px;
 }
 
+.nav-link.active{
+    border-bottom: 2px solid #F1948A;
+}
+
 .buscador .form-control {
     background-color: #F5B7B1;
     border-radius: 5px;
