@@ -41,15 +41,16 @@ body {
     color: #000;
     text-decoration: underline;
 }
-/*Revisar el footer*/
+
 .img-marco {
     display: inline-block;
     border: 10px solid #FADBD8;
 }
 
 .img-marco img{
-    max-width: 580px;
-    height: 580px;
+    width: 100%;
+    max-width: 450px;
+    height: auto;
 }
 
 .img-torta {
@@ -62,12 +63,9 @@ body {
     font-weight: bold;
 }
 
-.mb-3 {
-    margin-top: 150px;
-}
-
 .selector-tamaño {
-    width: 483px;
+    width: 100%;
+    max-width: 400px;
     margin: auto;
 }
 
@@ -81,6 +79,10 @@ body {
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
+}
+
+.nav-link.active{
+    border-bottom: 2px solid #F1948A;
 }
 
 .selector-tamaño[open] summary {
